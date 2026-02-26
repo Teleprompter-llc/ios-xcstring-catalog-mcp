@@ -1,6 +1,6 @@
 {
   "name": "@teleprompter/xcstrings-mcp-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for manipulating Xcode string catalogs via xcstrings-cli",
   "type": "module",
   "main": "dist/server.js",
@@ -31,6 +31,10 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Teleprompter-llc/ios-xcstring-catalog-mcp"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.0",
     "xcstrings-cli": "1.1.0",
